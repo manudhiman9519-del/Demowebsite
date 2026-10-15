@@ -7,6 +7,15 @@
         <script src="https://kit.fontawesome.com/d891bf99ba.js"
             crossorigin="anonymous"></script>
         <link rel="stylesheet" href="navbar2_style.css">
+
+<script>
+function toggleMenu() {
+    const menu = document.getElementById("mobileMenu");
+
+    menu.classList.toggle("active");
+}
+</script>
+
     </head>
     <body>
 
@@ -25,10 +34,14 @@
                 </h3>
             </div>
 
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
             <div class="btn1">
                 <a class="btn1_a">Get Started</a>
             </div>
         </nav>
+
+        
 
         <section class="sec1">
             <div class="sec1_s">
